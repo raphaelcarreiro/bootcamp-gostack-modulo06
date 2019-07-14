@@ -19,12 +19,12 @@ import {
 import api from '../../services/api';
 
 export default class Main extends Component {
-  static nvagationOptions = {
+  static navigationOptions = {
     title: 'Usuários',
   };
 
   static propTypes = {
-    navagation: PropTypes.shape({
+    navigation: PropTypes.shape({
       navigate: PropTypes.func,
     }).isRequired,
   };
